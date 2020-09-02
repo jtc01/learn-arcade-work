@@ -20,7 +20,7 @@ class Math:
         self.number_of_desks = 32
         self.grade = 8
         self.south = Cafeteria
-class Social_Studies:
+class SocialStudies:
     """
     This class represents a social studies classroom
     """
@@ -39,7 +39,7 @@ class Science:
         self.grade = 8
         self.north = Cafeteria
 
-class Language_Arts:
+class LanguageArts:
     """
     This class represents a Language arts classroom
     """
@@ -49,4 +49,7 @@ class Language_Arts:
         self.grade = 7
         self.east = Cafeteria
 
-rooms = [Cafeteria, Math, Social_Studies, Language_Arts, Science]
+rooms = [Cafeteria, Math, SocialStudies, LanguageArts, Science]
+print(type(rooms))
+foo = []
+print(type(foo))
